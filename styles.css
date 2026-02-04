@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #9a1414);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.color-box {
+  height: 180px;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: #764ba2;
+}
+
+.form-range::-moz-range-thumb {
+  background-color: #764ba2;
+}
+
+.form-control:focus,
+.form-range:focus {
+  box-shadow: 0 0 0 0.25rem rgba(118, 75, 162, 0.25);
+  border-color: #764ba2;
+}
+
+.value-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.form-control-color {
+  width: 80px;
+  height: 45px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
